@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+   font-family: 'Poppins', sans-serif;
+   background: url('../images/img.jpg') no-repeat center center fixed; /* Add the background image */
+   background-size: cover; /* Ensures the image covers the whole screen */
+   height: 100vh;
+   width: 100vw;
+   /* margin: 0; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow-x: hidden;
+ }
+ 
+ 
+ .all-items-center {
+   width: 80%; 
+   max-width: 700px;
+   height: 100%; 
+   /* max-height: 1000%; */
+   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+   padding: 30px;
+   border-radius: 20px;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .header-title {
+   font-weight: 1000;
+   background: -webkit-linear-gradient(70deg, #ff6f61 0%, #ffcc80 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 20px;
+   font-size: 2em; /* Increased header font size */
+ }
+ 
+ input[type=text] {
+   text-align: center;
+   width: 90%;
+   padding: 20px; 
+   font-size: 18px;
+   font-weight: bold;
+   border: 2px solid #000;
+   outline: none;
+   border-radius: 25px;
+   margin-bottom: 20px;
+   transition: 0.3s;
+ }
+ 
+ input[type=text]:focus {
+   border: 2px solid #ff9100;
+   box-shadow: 0 10px 20px #ff910079;
+ }
+ 
+ input[type=button], .reveal, .skip {
+   width: 90%; /* Buttons still take up a good portion */
+   padding: 15px; /* Decreased button padding */
+   font-size: 16px; /* Decreased button font size */
+   border: 2px solid #ff9100;
+   outline: none;
+   border-radius: 25px;
+   background: #ff9100;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.5s;
+ }
+ 
+ input[type=button]:hover, .reveal:hover, .skip:hover {
+   background: white;
+   color: #ff9100;
+ }
+ 
+ .reveal, .skip {
+   width: 45%;
+   margin-bottom: 15px; /* Reduced margin */
+ }
+ 
+ .skip {
+   background: #d32f2f;
+   border: 2px solid #d32f2f;
+ }
+ 
+ .reveal {
+   background: #333;
+   border: 2px solid #333;
+ }
+ 
+ .hinl-place {
+   width: 75%; /* Increased size for the image hint */
+   height: 75%; /* Increased height for the image hint */
+   font-size: 180px; /* Slightly increased font size for the hint image */
+   border: 2px solid #000;
+   outline: none;
+   border-radius: 25px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .alert-box {
+   width: 90%; 
+   border: 2px solid #000;
+   outline: none;
+   border-radius: 25px;
+   padding: 20px; 
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: white;
+   display: none;
+ }
+ 
+ .qustion { 
+   font-size: 24px; /* Increased hint font size */
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+
+ .si {
+  font-family: "Simple Icons" !important;
+  font-size: 24px;
+  color: #000;
+}
